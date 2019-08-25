@@ -1,0 +1,1 @@
+export const DAILY_FORECAST_API_BASE = 'https://api.weatherbit.io/v2.0/forecast/daily';
