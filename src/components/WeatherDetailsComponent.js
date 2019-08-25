@@ -30,7 +30,7 @@ const WeatherDetailsComponent = (props) => {
 			<TopBar>
 				<TopLeftBar>
 					<BackButton onClick={cleanState} className="material-icons">arrow_back</BackButton>
-					<CityName>{ props.weather.cityName }</CityName>
+					<CityName>{ props.weather.city_name }</CityName>
 				</TopLeftBar>
 				<ToggleComponent />
 			</TopBar>
